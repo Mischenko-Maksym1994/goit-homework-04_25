@@ -114,9 +114,12 @@ header {
     font-size: 16px;
     line-height: 1.5;
     padding-bottom: 24px;
+    transition: color 250ms ease-in-out;
 }
 
-.item-link:hover {
+.item-link:hover,
+.item-link:focus,
+.item-link:active {
     color: #404BBF;
     content: "";
     border-bottom: solid 4px #404BBF;
@@ -132,9 +135,12 @@ header {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    transition: color 250ms ease-in-out;
 }
 
-.header-contact:hover {
+.header-contact:hover,
+.header-contact:focus,
+.header-contact:active {
     color: #404BBF;
 }
 
@@ -155,7 +161,7 @@ header {
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7)), 
-                        url(/img/People-office.jpg);
+                    url(/img/People-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -185,7 +191,9 @@ header {
     border: none;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active {
     background-color: #404BBF;
 }
 
@@ -246,6 +254,7 @@ header {
     height: 40px;
     background-color: #4D5AE5;
     border-radius: 50%;
+    transition: background-color 250ms ease-in-out;
 }
 
 .social-iteam:not(:first-child) {
@@ -256,7 +265,9 @@ header {
     fill: #fff;
 }
 
-.social-iteam:hover {
+.social-iteam:hover,
+ .social-iteam:focus,
+ .social-iteam:active {
     background-color: #404BBF;
 }
 
@@ -274,6 +285,7 @@ header {
 .portfolio-iteam {
     position: relative;
     overflow: hidden;
+    transition: transform 250ms ease-in-out;
 }
 
 .portfolio-hover-card {
@@ -300,7 +312,9 @@ header {
     transform: translatey(0);
 }
 
-.portfolio-iteam:hover {
+.portfolio-iteam:hover,
+.portfolio-iteam:focus,
+.portfolio-iteam:active {
     box-shadow: 0 2px 1px 0 #2E2F4214,
                 0 1px 1px 0 #2E2F4229;
 }
@@ -350,6 +364,8 @@ header {
     width: 264px;
 }
 
-.footer-social-iteam:hover {
+.footer-social-iteam:hover,
+.footer-social-iteam:focus,
+.footer-social-iteam:active {
     background-color: #31D0AA;
 }
